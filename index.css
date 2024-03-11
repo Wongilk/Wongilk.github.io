@@ -1,0 +1,52 @@
+.intro {
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+.nav {
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 5vh;
+}
+.projects {
+  text-align: center;
+  margin: 0 auto;
+  width: 94vw;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vh 2vw;
+  box-sizing: border-box;
+}
+
+.project {
+  width: 30vw;
+  height: 40vh;
+  background-color: rgb(246, 246, 246);
+  border-radius: 10px;
+}
+
+.project-name {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 2.5vh;
+}
+
+.project-img {
+  width: 15vw;
+  height: 15vh;
+}
+
+.project-shortdesc {
+  font-size: 2vh;
+  height: 6vh;
+  font-weight: 300;
+}
+
+.project-details-btn {
+  width: 10vw;
+  border: 1px solid gray;
+  border-radius: 7px;
+  background-color: rgb(231, 230, 230);
+  cursor: pointer;
+}
