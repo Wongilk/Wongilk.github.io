@@ -1,52 +1,65 @@
+body {
+  color: rgb(51, 51, 51);
+}
 .intro {
   text-align: center;
-  margin-top: 10vh;
-  margin-bottom: 5vh;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-weight: lighter;
 }
+.intro-name {
+  font-weight: lighter;
+}
+.intro-role {
+  font-weight: lighter;
+}
+
 .nav {
   text-align: center;
   font-weight: lighter;
-  margin-bottom: 5vh;
+  margin-bottom: 4rem;
 }
 .projects {
   text-align: center;
   margin: 0 auto;
-  width: 94vw;
+  width: 94rem;
 
   display: flex;
   flex-wrap: wrap;
-  gap: 2vh 2vw;
+  gap: 2rem 2rem;
   box-sizing: border-box;
 }
 
 .project {
-  width: 30vw;
-  height: 40vh;
-  background-color: rgb(246, 246, 246);
+  width: 30rem;
+  height: 20rem;
+  background-color: rgb(51, 51, 51);
+  color: white;
   border-radius: 10px;
 }
 
 .project-name {
   font-weight: lighter;
   font-style: italic;
-  font-size: 2.5vh;
+  font-size: 1.5rem;
 }
 
 .project-img {
-  width: 15vw;
-  height: 15vh;
+  width: 12rem;
+  height: 8rem;
 }
 
 .project-shortdesc {
-  font-size: 2vh;
-  height: 6vh;
+  font-size: 1rem;
+  height: 3rem;
   font-weight: 300;
 }
 
 .project-details-btn {
-  width: 10vw;
+  width: 10rem;
   border: 1px solid gray;
   border-radius: 7px;
-  background-color: rgb(231, 230, 230);
+  background-color: rgb(51, 51, 51);
+  color: white;
   cursor: pointer;
 }
