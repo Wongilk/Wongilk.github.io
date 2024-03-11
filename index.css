@@ -63,3 +63,29 @@ body {
   color: white;
   cursor: pointer;
 }
+
+.abouts {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  width: 60rem;
+  text-align: center;
+}
+.about {
+  width: 14rem;
+  display: flex;
+  padding: 0 3rem;
+}
+.about-img {
+  width: 4rem;
+  margin-right: 2rem;
+}
+.about-title {
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 0;
+  text-align: left;
+}
+.about-content {
+  margin-top: 0.5rem;
+}
